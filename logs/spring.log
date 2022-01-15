@@ -1,0 +1,9 @@
+2022-01-15 06:22:23.551  INFO 1 --- [main] c.example.workshop.WorkshopApplication   : Starting WorkshopApplication v0.0.1-SNAPSHOT using Java 11.0.13 on fcc1692f8dfa with PID 1 (/app.jar started by root in /)
+2022-01-15 06:22:23.573  INFO 1 --- [main] c.example.workshop.WorkshopApplication   : No active profile set, falling back to default profiles: default
+2022-01-15 06:22:26.212  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-15 06:22:26.245  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-15 06:22:26.250  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-15 06:22:26.363  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-15 06:22:26.365  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2531 ms
+2022-01-15 06:22:27.386  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-15 06:22:27.425  INFO 1 --- [main] c.example.workshop.WorkshopApplication   : Started WorkshopApplication in 5.591 seconds (JVM running for 6.754)

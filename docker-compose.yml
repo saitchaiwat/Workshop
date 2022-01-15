@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  app:
+    image: workshop-app
+    container_name: workshop-app
+    restart: always
+    environment:
+      - MESSAGE=Say Something
+#      - SPRING_PROFILES_ACTIVE=prod
+    volumes:
+      - $PWD/logs:/logs
+    ports:
+      - "8080:8080"
